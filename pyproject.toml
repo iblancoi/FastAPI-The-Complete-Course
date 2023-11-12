@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fastapi-the-complete-course"
+version = "0.1.0"
+description = ""
+authors = ["Ignacio Blanco <ibi.46.nb@gmail.com>"]
+readme = "README.md"
+packages = [{include = "fastapi_the_complete_course"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
